@@ -1,0 +1,599 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.puma-headerlogo {
+    width: 50px;
+}
+.navbar-toggler-icon {
+    color: white;
+    background-color: gray;
+}
+.section1 {
+    padding-top: 75px
+}
+.container2 {
+    height: 100%;
+    display: flex;
+}
+.friends {
+    background-color: orangered;
+    padding-left: 50px;
+}
+.friends h1 {
+    padding-top: 60px;
+    font-family: poppins;
+    font-size: 30px;
+    width: 100%;
+}
+.friends h2 {
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 100%;
+}
+.friends h3 {
+    padding-top: 5px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    width: 100%;
+}
+.photo img {
+    max-width: 100%;
+    height: auto;
+}
+.btn1 {
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid white ;
+    background-color: white;
+    padding: 10px 0;
+    width: 30%;
+}
+.btn1 a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.section2 {
+    padding-top: 30px;
+}
+.grid {
+    width: 93%;
+    margin: 0 auto;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 330px 330px 330px 330px;
+}
+.sneakers1 img {
+    width: 100%;
+}
+.shoes1 h1 {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.shoes1 a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.shoes2 a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.shoes3 a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.shoes4 a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.shoes5 a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.shoes6 a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.shoes7 a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.shoes8 a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.shoes9 a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.shoes10 a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.shoes11 a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.shoes12 a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.fresh {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+} 
+.fresh h1 {
+    font-family: poppins;
+    font-size: 30px;
+} 
+.fresh p {
+    font-family: sans-serif;
+    font-weight: lighter
+}
+.grid2 {
+    width: 93%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 650px 650px;
+    gap: 25px;
+}
+.fenty-puma {
+    position: relative;
+}
+.text1 h1 {
+    position: absolute;
+    font-size: 40px;
+    font-family: poppins;
+    color: purple;
+    left: 20px;
+    bottom: 20px;
+}
+.puma-melo {
+    position: relative;
+}
+.text1 h1 {
+    position: absolute;
+    font-size: 40px;
+    font-family: poppins;
+    color: purple;
+    left: 20px;
+    bottom: 20px;
+}
+.fenty-puma img {
+    width: 650px;
+} 
+.puma-melo img {
+    width: 650px;
+}
+.shop {
+    margin: 40px;
+    text-align: center;
+}
+.shop h1 {
+    font-family: poppins;
+}
+.shop p {
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.grid3 {
+    width: 93%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 650px 650px;
+    gap: 20px;
+}
+.men-shoes {
+    position: relative;
+}
+.text1 h1 {
+    position: absolute;
+    font-size: 40px;
+    font-family: poppins;
+    color: purple;
+    left: 20px;
+    bottom: 20px;
+}
+.men-shoes img {
+    width: 650px;
+}
+.women-shoes {
+    position: relative;
+}
+.text1 h1 {
+    position: absolute;
+    font-size: 40px;
+    font-family: poppins;
+    color: purple;
+    left: 20px;
+    bottom: 20px;
+}
+.women-shoes img {
+    width: 650px;
+}
+.proper {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.proper h1 {
+    font-family: poppins;
+}
+.proper p {
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.grid4 {
+    width: 93%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 330px 330px 330px 330px;
+    gap: 15px;
+}
+.fleece img {
+    width: 330px;
+}
+.fleece {
+    position: relative;
+}
+.text h1 {
+    position: absolute;
+    font-size: 20px;
+    font-family: poppins;
+    color: purple;
+    left: 20px;
+    bottom: 15px;
+}
+.cold-weather img {
+    width: 330px;
+}
+.cold-weather {
+    position: relative;
+}
+.text2 h1 {
+    position: absolute;
+    font-size: 20px;
+    font-family: poppins;
+    color: purple;
+    left: 20px;
+    bottom: 15px;
+}
+.boots-mids img {
+    width: 330px;
+}
+.boots-mids {
+    position: relative;
+}
+.text3 h1 {
+    position: absolute;
+    font-size: 20px;
+    font-family: poppins;
+    color: purple;
+    left: 20px;
+    bottom: 15px;
+}
+.beanies img {
+    width: 330px;
+}
+.beanies {
+    position: relative;
+}
+.text4 h1 {
+    position: absolute;
+    font-size: 20px;
+    font-family: poppins;
+    color: purple;
+    left: 20px;
+    bottom: 15px;
+}
+.flex1 ul li {
+    list-style: none;
+}
+.flex2 ul li {
+    list-style: none;
+}
+.flex3 ul li {
+    list-style: none;
+}
+.flex1 ul li a {
+    text-decoration: none;
+    color: white;
+}
+.flex2 ul li a {
+   text-decoration: none;
+   color: white;
+}
+.flex3 ul li a {
+    text-decoration: none;
+    color: white;
+}
+.flex4 .gap2 {
+    text-decoration: none;
+    color: gray;
+}
+.gap1 {
+    margin-right: 20px;
+    border: 1px solid gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo-puma {
+    width: 40px;
+}
+/* for small device */
+@media(max-width:576px) {
+    .row {
+        flex-direction: column;
+    }
+    .section1 {
+        width: 100%;
+    }
+    .container2 {
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .btn1 {
+        margin-bottom: 20px;
+    }
+    .photo {
+        max-width: 100%;
+        height: auto;
+    }
+    .friends {
+        width: 100%;
+    }
+    .grid {
+        margin-left: 0;
+       /* margin-right: 0;  */
+        grid-template-columns: 50% 50%;
+    }
+    .sneakers1 img {
+        max-width: 100%;
+    }
+    .sneakers1 a {
+        margin-right: 0px;
+    }
+    .shoes1 a,.shoes2 a,.shoes3 a,.shoes4 a,.shoes5 a,.shoes6 a,.shoes7 a,.shoes8 a,.shoes9 a,.shoes10 a,.shoes11 a,.shoes12 a {
+        margin-right: 0px;
+    }
+
+    .grid2 {
+        grid-template-columns: auto auto;
+    }
+    .fenty-puma img {
+        max-width: 100%;
+    }
+    .puma-melo img {
+        max-width: 100%;
+    }
+    .text1 h1 {
+        font-size: 15px;
+        bottom: 5px;
+    }
+    .flex1,.flex2,.flex3,.flex4 {
+        text-align: center;
+    }
+
+    .grid3 {
+        grid-template-columns: auto auto;
+    }
+    .men-shoes img {
+        max-width: 100%;
+    }
+    .women-shoes img {
+        max-width: 100%;
+    }
+    .text2 h1 {
+        font-size: 15px;
+        bottom: 5px;
+    }
+    .grid4 {
+        grid-template-columns: auto auto;
+    }
+    .fleece img {
+        max-width: 100%;
+    }
+    .cold-weather img {
+        max-width: 100%;
+    }
+    .boots-mids img {
+        max-width: 100%;
+    }
+    .beanies img {
+        max-width: 100%;
+    }
+    .text h1 {
+        bottom: 5px;
+    }
+}
+    @media(min-width:577px) and (max-width:768px) {
+        .section1 {
+            width: 100%;
+        }   
+        .container2 {
+            height: auto;
+            width: 100%;
+            flex-direction: column;
+        }
+        .btn1 {
+            margin-bottom: 30px;
+        }
+        .photo {
+            max-width: 100%;
+            height: auto;
+        }
+        .friends {
+            width: 100%;
+        }
+        .grid {
+            grid-template-columns: auto auto auto;
+        }
+        .sneakers1 img {
+            max-width: 100%;
+        }
+        .grid2 {
+            grid-template-columns: auto auto;
+        }
+        .fenty-puma img {
+            max-width: 100%;
+        }
+        .puma-melo img {
+            max-width: 100%;
+        }
+        .text1 h1 {
+            font-size: 25px;
+            bottom: 5px;
+        }
+        .grid3 {
+            grid-template-columns: auto auto;
+        }
+        .men-shoes img {
+            max-width: 100%;
+        }
+        .women-shoes img {
+            max-width: 100%;
+        }
+        .text2 h1 {
+            font-size: 25px;
+            bottom: 5px;
+        }
+        .grid4 {
+            grid-template-columns: auto auto;
+        }
+        .fleece img {
+            max-width: 100%;
+        }
+        .cold-weather img {
+            max-width: 100%;
+        }
+        .boots-mids img {
+            max-width: 100%;
+        }
+        .beanies img {
+            max-width: 100%;
+        }
+        .text h1 {
+            font-size: 25px;
+            bottom: 5px;
+        }
+
+    }
+    @media(min-width:769px) and (max-width:1080) {
+        .section1 {
+            width: 100%;
+        }   
+        .container2 {
+            height: auto;
+            width: 100%;
+        }
+        .btn1 {
+            margin-bottom: 30px;
+        }
+        .photo {
+            max-width: 100%;
+            height: auto;
+        }
+        .friends {
+            width: 100%;
+        }
+        .grid {
+            grid-template-columns: auto auto auto auto;
+        }
+        .sneakers1 img {
+            max-width: 100%;
+        }
+        .grid2 {
+            grid-template-columns: auto auto;
+        }
+        .fenty-puma img {
+            max-width: 100%;
+        }
+        .puma-melo img {
+            max-width: 100%;
+        }
+        .text1 h1 {
+            font-size: 25px;
+            bottom: 5px;
+        }
+        .grid3 {
+            grid-template-columns: auto auto;
+        }
+        .men-shoes img {
+            max-width: 100%;
+        }
+        .women-shoes img {
+            max-width: 100%;
+        }
+        .text2 h1 {
+            font-size: 25px;
+            bottom: 5px;
+        }
+        .grid4 {
+            grid-template-columns: auto auto;
+        }
+        .fleece img {
+            max-width: 100%;
+        }
+        .cold-weather img {
+            max-width: 100%;
+        }
+        .boots-mids img {
+            max-width: 100%;
+        }
+        .beanies img {
+            max-width: 100%;
+        }
+        .text h1 {
+            font-size: 25px;
+            bottom: 5px;
+        }
+
+    }

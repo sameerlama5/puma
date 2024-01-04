@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.proper {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.proper h1 {
+    font-family: poppins;
+}
+.proper p {
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.grid4 {
+    width: 93%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 330px 330px 330px 330px;
+    gap: 15px;
+}
+.fleece {
+    background-image: url(https://cdn.sanity.io/images/qa41whrn/staging/f969bc56c4d6515f493e4af3b192783bac0c59af-1536x1536.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 330px;
+    
+}
+.cold-weather {
+    background-image: url(https://cdn.sanity.io/images/qa41whrn/staging/d71e5db63653d1c27702e6372f7c6efcadade017-1536x1536.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 330px;
+}
+.boots-mids {
+    background-image: url(https://cdn.sanity.io/images/qa41whrn/staging/82728361a641254776141f688f31f99ab97d30e1-750x750.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 330px;
+}
+.beanies {
+    background-image: url(https://cdn.sanity.io/images/qa41whrn/staging/632b1828798d24118455050a6520a0b7570781d3-1536x1536.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 330px;
+}
